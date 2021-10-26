@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./estilos/style.css" />
+    <link rel="stylesheet" href="./Sass-node/estilos/main.css">
   </head>
   <body class="bodyGrid">
     <header>
@@ -35,11 +36,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse listaInicio"
+        class="collapse navbar-collapse listaInicio navi"
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown margenLeft">
+          <li class="nav-item dropdown navi__margen">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -49,7 +50,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <span class="colorRojo">Planes</span>
+              <span class="navi__color">Planes</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./secciones/planes.html"
@@ -60,20 +61,20 @@
               >
             </div>
           </li>
-          <li class="nav-item margenLeft">
+          <li class="nav-item navi__margen">
             <a class="nav-link" href="./secciones/Institucional.html"
-              ><span class="colorRojo">Institucional</span></a
+              ><span class="navi__color">Institucional</span></a
             >
           </li>
-          <li class="nav-item margenLeft">
+          <li class="nav-item navi__margen">
             <a class="nav-link" href="./secciones/equipo.html"
-              ><span class="colorRojo">Equipo</span></a
+              ><span class="navi__color">Equipo</span></a
             >
           </li>
 
-          <li class="nav-item margenLeft">
+          <li class="nav-item navi__margen">
             <a class="nav-link" href="./secciones/contacto.html"
-              ><span class="colorRojo">Contactos</span></a
+              ><span class="navi__color">Contacto</span></a
             >
           </li>
         </ul>
@@ -82,8 +83,8 @@
     <div class="indexSeguro">
       <div>
         <section class="margenLeft">
-          <h2>Seguros:</h2>
-          <p>Estamos para asegurar tanto a usted como a sus vehiculos</p>
+          <h2>Seguros</h2>
+          <p>Estamos para asegurar tanto a usted como a su vehiculo</p>
           <p>
             la responsabilidad de darle seguridad en su dia a dia nos estamos
             adaptando constantesmente a los cambios para traerle todos los
@@ -104,9 +105,9 @@
       </div>
     </div>
     <footer>
-      <div class="footerGrid">
-        <p class="margenLeft cursivas">Nuestra empresa</p>
-        <div class="footerDiv">
+      <div class="footer">
+        <p class="footer__cursiva">Nuestra empresa</p>
+        <div class="footer__div">
           <img
             src="https://image.flaticon.com/icons/png/128/174/174855.png"
             alt="instagram"
@@ -125,21 +126,9 @@
             height="50"
             width="50"
           />
-          <p>
-            <a href="https://www.instagram.com/exe.vega/" class="colorAzul"
-              >Instagram</a
-            >
-          </p>
-          <p>
-            <a href="https://www.facebook.com/exequiel.lbg/" class="colorAzul"
-              >Facebook</a
-            >
-          </p>
-          <p>
-            <a href="https://wa.me/+5493816639947" class="colorAzul"
-              >Whatsapp</a
-            >
-          </p>
+        <p><a href="https://www.instagram.com/exe.vega/" class="colorAzul">Instagram</a></p>
+        <p><a href="https://www.facebook.com/exequiel.lbg/" class="colorAzul">Facebook</a></p>
+        <p><a href="https://wa.me/+5493816639947" class="colorAzul">Whatsapp</a></p>
         </div>
       </div>
     </footer>
@@ -158,5 +147,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <div></div>
+    <div>
+      <div></div>
+    </div>
   </body>
 </html>

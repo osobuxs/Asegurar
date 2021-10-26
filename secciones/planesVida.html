@@ -16,69 +16,99 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../Sass-node/estilos/main.css">
   </head>
   <body class="bodyGrid">
     <header>
       <a href="../index.html"><h1 class="tituloMargenes">ASEGURAR</h1></a>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" href="../index.html"><span class="ref">MENU:</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse listaInicio" id="navbarSupportedContent">
+      <div
+        class="collapse navbar-collapse listaInicio navi"
+        id="navbarSupportedContent"
+      >
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="colorRojo">Planes</span>
+          <li class="nav-item dropdown navi__margen">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <span class="navi__color">Planes</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../secciones/planes.html">Seguros de Autos</a>
-              <a class="dropdown-item" href="../secciones/planesVida.html">Seguro de Vida</a>
+              <a class="dropdown-item" href="../secciones/planes.html"
+                >Seguros de Autos</a
+              >
+              <a class="dropdown-item" href="../secciones/planesVida.html"
+                >Seguro de Vida</a
+              >
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../secciones/Institucional.html"><span class="colorRojo">Institucional</span></a>
+          <li class="nav-item navi__margen">
+            <a class="nav-link" href="../secciones/Institucional.html"
+              ><span class="navi__color">Institucional</span></a
+            >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../secciones/equipo.html"><span class="colorRojo">Equipo</span></a>
+          <li class="nav-item navi__margen">
+            <a class="nav-link" href="../secciones/equipo.html"
+              ><span class="navi__color">Equipo</span></a
+            >
           </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="../secciones/contacto.html"><span class="colorRojo">Contacto</span></a>
+
+          <li class="nav-item navi__margen">
+            <a class="nav-link" href="../secciones/contacto.html"
+              ><span class="navi__color">Contacto</span></a
+            >
           </li>
         </ul>
       </div>
     </nav>
-    <div class="separarPlan">
+    <div class="plan">
      <p class="cursivas">Seguros:</p>
       <table border="8" cellspacing="5" cellpadding="9" id="abajo">
-        <tr class="tablaEncab">
+        <tr class="plan__tabla">
           <th>Plan</th>
           <th>Precio</th>
         </tr>
-        <tr class="tablaColor">
+        <tr class="plan__color">
           <td>Vida</td>
           <td>$1500</td>
         </tr>
-        <tr class="tablaColor">
+        <tr class="plan__color">
           <td>Hogar</td>
           <td>$2000</td>
         </tr>
-        <tr class="tablaColor">
+        <tr class="plan__color">
           <td>Accidentes personales</td>
           <td>$2500</td>
         </tr>
-        <tr class="tablaColor">
+        <tr class="plan__color">
           <td>Robos Personales</td>
           <td>$1200</td>
         </tr>
       </table>
     </div>
     <footer>
-      <div class="footerGrid">
-        <p class="margenLeft cursivas">Nuestra empresa</p>
-        <div class="footerDiv">
+      <div class="footer">
+        <p class="footer__cursiva">Nuestra empresa</p>
+        <div class="footer__div">
           <img
             src="https://image.flaticon.com/icons/png/128/174/174855.png"
             alt="instagram"
@@ -97,9 +127,9 @@
             height="50"
             width="50"
           />
-          <p><a href="https://www.instagram.com/exe.vega/" class="colorAzul">Instagram</a></p>
-          <p><a href="https://www.facebook.com/exequiel.lbg/" class="colorAzul">Facebook</a></p>
-          <p><a href="https://wa.me/+5493816639947" class="colorAzul">Whatsapp</a></p>
+        <p><a href="https://www.instagram.com/exe.vega/" class="colorAzul">Instagram</a></p>
+        <p><a href="https://www.facebook.com/exequiel.lbg/" class="colorAzul">Facebook</a></p>
+        <p><a href="https://wa.me/+5493816639947" class="colorAzul">Whatsapp</a></p>
         </div>
       </div>
     </footer>
